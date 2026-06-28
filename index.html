@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEase - Modern E-Commerce Store</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- =====================
+         NAVBAR
+    ====================== -->
+    <nav class="navbar">
+
+        <div class="logo">
+            <i class="fa-solid fa-bag-shopping"></i>
+            Cartify
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#featured">Featured</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="nav-icons">
+
+            <!-- Dark Mode -->
+            <button id="themeToggle">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+
+            <!-- Cart -->
+            <div class="cart-icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span id="cartCount">0</span>
+            </div>
+
+
+            <!-- Hamburger -->
+            <button id="menuBtn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </div>
+
+
+    </nav>
+
+    <!-- =====================
+         HERO SECTION
+    ====================== -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <span class="sale-badge">
+                🔥 Summer Sale 2025
+            </span>
+
+            <h1>
+                Trendy Fashion Collection
+            </h1>
+
+            <p>
+                Discover premium products at unbeatable prices.
+                Enjoy exclusive discounts and fast delivery.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#products" class="btn-primary">
+                    Shop Now
+                </a>
+
+                <a href="#featured" class="btn-secondary">
+                    Explore
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=900" alt="Shopping Banner">
+
+        
+
+    </section>
+
+    <!-- =====================
+         FEATURES
+    ====================== -->
+    <section class="features">
+
+        <div class="feature-card">
+            <i class="fa-solid fa-truck-fast"></i>
+            <h3>Free Shipping</h3>
+            <p>On orders above $50</p>
+        </div>
+
+        <div class="feature-card">
+            <i class="fa-solid fa-headset"></i>
+            <h3>24/7 Support</h3>
+            <p>Dedicated customer support</p>
+        </div>
+
+        <div class="feature-card">
+            <i class="fa-solid fa-shield-halved"></i>
+            <h3>Secure Payment</h3>
+            <p>100% safe transactions</p>
+        </div>
+
+        <div class="feature-card">
+            <i class="fa-solid fa-rotate-left"></i>
+            <h3>Easy Returns</h3>
+            <p>7-day return policy</p>
+        </div>
+
+    </section>
+
+    <!-- =====================
+         CATEGORIES
+    ====================== -->
+    <section class="categories" id="categories">
+
+        <div class="section-title">
+            <h2>Shop By Categories</h2>
+            <p>Browse products by category</p>
+        </div>
+
+        <div class="category-grid">
+
+            <div class="category-card">
+                <i class="fa-solid fa-mobile-screen"></i>
+                <h3>Electronics</h3>
+            </div>
+
+            <div class="category-card">
+                <i class="fa-solid fa-shirt"></i>
+                <h3>Fashion</h3>
+            </div>
+
+            <div class="category-card">
+                <i class="fa-solid fa-shoe-prints"></i>
+                <h3>Shoes</h3>
+            </div>
+
+            <div class="category-card">
+                <i class="fa-solid fa-clock"></i>
+                <h3>Watches</h3>
+            </div>
+
+            <div class="category-card">
+                <i class="fa-solid fa-laptop"></i>
+                <h3>Laptops</h3>
+            </div>
+
+            <div class="category-card">
+                <i class="fa-solid fa-headphones"></i>
+                <h3>Accessories</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =====================
+         FEATURED PRODUCTS
+    ====================== -->
+    <section class="featured-products" id="featured">
+
+        <div class="section-title">
+            <h2>Featured Products</h2>
+            <p>Most popular products this week</p>
+        </div>
+
+        <div class="featured-grid">
+
+            <div class="featured-card">
+                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500" alt="">
+                <div class="featured-info">
+                    <h3>Nike Sneakers</h3>
+                    <p>₹2,499</p>
+                </div>
+            </div>
+
+            <div class="featured-card">
+                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500" alt="">
+                <div class="featured-info">
+                    <h3>Smart Watch</h3>
+                    <p>₹1,499</p>
+                </div>
+            </div>
+
+            <div class="featured-card">
+                <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500" alt="">
+                <div class="featured-info">
+                    <h3>Headphones</h3>
+                    <p>₹2,489</p>
+                </div>
+            </div>
+
+            <div class="featured-card">
+                <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=500" alt="">
+                <div class="featured-info">
+                    <h3>Fashion Wear</h3>
+                    <p>₹2,459</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =====================
+         PRODUCTS SECTION
+    ====================== -->
+    <section class="products" id="products">
+
+        <div class="section-title">
+            <h2>Our Products</h2>
+            <p>Explore our latest collection</p>
+        </div>
+
+        <!-- Search -->
+        <div class="product-controls">
+
+            <input type="text" id="searchInput" placeholder="Search products...">
+
+            <select id="categoryFilter">
+                <option value="all">All Categories</option>
+                <option value="electronics">Electronics</option>
+                <option value="fashion">Fashion</option>
+                <option value="shoes">Shoes</option>
+                <option value="watch">Watch</option>
+            </select>
+
+        </div>
+
+        <div class="product-grid" id="productGrid">
+
+            <!-- Product 1 -->
+            <div class="product-card" data-category="electronics">
+
+                <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500">
+
+                <h3>iPhone 15</h3>
+
+                <div class="rating">
+                    ⭐⭐⭐⭐⭐
+                </div>
+
+                <p class="price">₹999</p>
+
+               <button class="cart-btn"
+onclick="addToCart('iPhone 15',999,'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500')">
+    Add To Cart
+</button>
+
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card" data-category="watch">
+
+                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500">
+
+                <h3>Luxury Watch</h3>
+
+                <div class="rating">
+                    ⭐⭐⭐⭐⭐
+                </div>
+
+                <p class="price">₹2,199</p>
+
+               <button class="cart-btn"
+onclick="addToCart('Luxury Watch',2199,'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500')">
+    Add To Cart
+</button>
+
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card" data-category="fashion">
+
+                <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500">
+
+                <h3>Premium T-Shirt</h3>
+
+                <div class="rating">
+                    ⭐⭐⭐⭐☆
+                </div>
+
+                <p class="price">₹2,749</p>
+
+               <button class="cart-btn"
+onclick="addToCart('Premium T-Shirt',2749,'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500')">
+    Add To Cart
+</button>
+
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card" data-category="shoes">
+
+                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500">
+
+                <h3>Running Shoes</h3>
+
+                <div class="rating">
+                    ⭐⭐⭐⭐⭐
+                </div>
+
+                <p class="price">₹2,129</p>
+
+               <button class="cart-btn"
+onclick="addToCart('Running Shoes',2129,'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500')">
+    Add To Cart
+</button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =====================
+         CONTACT
+    ====================== -->
+    <section class="contact" id="contact">
+
+        <div class="section-title">
+            <h2>Contact Us</h2>
+            <p>We'd love to hear from you</p>
+        </div>
+
+        <form class="contact-form">
+
+            <input type="text" placeholder="Your Name" required>
+
+            <input type="email" placeholder="Your Email" required>
+
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+
+            <button type="submit">
+                Send Message
+            </button>
+
+        </form>
+
+    </section>
+
+    <!-- =====================
+         FOOTER
+    ====================== -->
+    <footer>
+
+        <div class="footer-container">
+
+            <div class="footer-about">
+                <h3>Cartify</h3>
+                <p>
+                    Your one-stop destination for
+                    premium products and amazing deals.
+                </p>
+            </div>
+
+            <div class="footer-links">
+
+                <h3>Quick Links</h3>
+
+                <a href="#home">Home</a>
+                <a href="#products">Products</a>
+                <a href="#categories">Categories</a>
+                <a href="#contact">Contact</a>
+
+            </div>
+
+            <div class="footer-social">
+
+                <h3>Follow Us</h3>
+
+                <div class="social-icons">
+
+                    <a href="#">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            © 2026 Cartify. All Rights Reserved.
+        </div>
+
+    </footer>
+
+    <!-- Back To Top -->
+    <button id="topBtn">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Product Modal -->
+    <div class="modal" id="productModal">
+
+        <div class="modal-content">
+
+            <span class="close-modal">
+                &times;
+            </span>
+
+            <h2 id="modalTitle">
+                Product Title
+            </h2>
+
+            <p id="modalPrice">
+                Product Price
+            </p>
+
+            <p id="modalDescription">
+                Product Description
+            </p>
+            <div class="modal-content">
+
+    <span class="close-modal">&times;</span>
+
+    <h2 id="modalTitle"></h2>
+
+    <p id="modalPrice"></p>
+
+    <p id="modalDescription"></p>
+
+    <button id="buyNowBtn" class="checkout-btn">
+        Buy Now
+    </button>
+
+</div>
+
+        </div>
+
+    </div>
+    <!-- ================= CHECKOUT MODAL ================= -->
+
+    <div class="checkout-modal" id="checkoutModal">
+
+        <div class="checkout-box">
+
+            <span class="close-checkout">&times;</span>
+
+            <h2>Checkout</h2>
+
+            <form id="checkoutForm">
+
+                <input type="text" id="customerName" placeholder="Full Name" required>
+
+                <input type="tel" id="customerPhone" placeholder="Phone Number" required>
+
+                <input type="email" id="customerEmail" placeholder="Email" required>
+
+                <textarea id="customerAddress" placeholder="Delivery Address" required></textarea>
+
+                <select id="paymentMethod">
+
+                    <option>Cash On Delivery</option>
+
+                    <option>UPI</option>
+
+                    <option>Credit Card</option>
+
+                    <option>Debit Card</option>
+
+                </select>
+
+                <button type="submit">
+                    Place Order
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+ <!-- SUCCESS MODAL -->
+
+    <div class="success-modal" id="successModal">
+
+        <div class="success-box">
+
+            <i class="fa-solid fa-circle-check"></i>
+
+            <h2>Order Placed Successfully!</h2>
+
+            <p id="orderMessage"></p>
+
+            <button onclick="closeSuccess()">
+                Continue Shopping
+            </button>
+
+        </div>
+
+    </div>
+    <!-- CART DRAWER -->
+
+<div id="cartDrawer" class="cart-drawer">
+
+    <div class="cart-header">
+        <h2>My Cart</h2>
+        <span id="closeCart">&times;</span>
+    </div>
+
+    <div id="cartItems"></div>
+
+    <div class="cart-footer">
+        <button onclick="openCheckout()" class="checkout-btn">
+            Proceed To Checkout
+        </button>
+    </div>
+
+</div>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
